@@ -19,7 +19,7 @@ body {
 /* SCROLL BACKGROUND OVERLAY */
 body::after {
   content: "";
-  background: url('hacker.webp') no-repeat center center fixed;
+  background: url('hacker.jpg') no-repeat center center fixed;
   background-size: cover;
   opacity: 0.08;
   top: 0;
@@ -31,9 +31,9 @@ body::after {
   pointer-events: none;
 }
 
-/* HEADER BACKGROUND WITH hacker.webp */
+/* HEADER BACKGROUND WITH hacker.jpg */
 .business-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('hacker.webp') no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('hacker.jpg') no-repeat center center;
   background-size: cover;
   color: white;
   padding: 3rem 0;
